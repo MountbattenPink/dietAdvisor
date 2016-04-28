@@ -11,7 +11,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * Created by pc on 24.04.2016.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = SgtPeppers.class)
 public class CDPlayerTest {
     @Autowired
     private CompactDisk disk;
